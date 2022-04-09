@@ -5,7 +5,7 @@ class Rabbit < Formula
   desc ""
   homepage "https://github.com/ilpanda/rabbit"
   url "rabbit"
-  version ""
+  version "0.0.1"
   sha256 ""
 
   depends_on "openjdk"
