@@ -2,11 +2,10 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Rabbit < Formula
-  desc ""
   homepage "https://github.com/ilpanda/rabbit"
-  url "rabbit"
-  version "0.0.1"
-  sha256 ""
+  url "https://github.com/ilpanda/rabbbit/releases/download/1.0.0/rabbit.zip"
+  version "1.0.0"
+  sha256 "7a5afeb8b62b7f05670111abf2497c2c7e34caf367b15aa87a052d6e450a8672"
 
   depends_on "openjdk"
 
