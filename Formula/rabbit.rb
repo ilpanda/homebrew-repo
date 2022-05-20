@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Rabbit < Formula
   homepage "https://github.com/ilpanda/rabbit"
-  url "https://github.com/ilpanda/rabbit/releases/download/1.8.0/rabbit.zip"
-  version "1.8.0"
-  sha256 "dcc1a373c2e87ffb0fd85793fe201c434e4ee357c596bb87bc9e7fc42935fa46"
+  url "https://github.com/ilpanda/rabbit/releases/download/1.9.0/rabbit.zip"
+  version "1.9.0"
+  sha256 "61ebb7bb2cbc9ea78f7b0659a706adbec5def236182d4c4ed14c216e96c66455"
 
   depends_on "openjdk"
 
