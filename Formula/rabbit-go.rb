@@ -5,21 +5,21 @@
 class RabbitGo < Formula
   desc "Android ADB command line tool"
   homepage "https://github.com/ilpanda/rabbit-go"
-  version "1.0.6"
+  version "1.0.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.6/rabbit-go_1.0.6_darwin_amd64.tar.gz"
-      sha256 "d6a3b4c433f514ae5c50f762333bddc0e7a6ace9ed30ee9aab8d23ef8e0095bb"
+      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.7/rabbit-go_1.0.7_darwin_amd64.tar.gz"
+      sha256 "56a229cb6df3b41c7d005b7b770cb4bbbff21728ae8368420a0ae41ca5c5a051"
 
       def install
         bin.install "rabbit-go"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.6/rabbit-go_1.0.6_darwin_arm64.tar.gz"
-      sha256 "a87d9ce1c1c7bd49ed238c4d82892d142c78f53a56b82887641dfecce384208a"
+      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.7/rabbit-go_1.0.7_darwin_arm64.tar.gz"
+      sha256 "d16484ae3d7e55ad64e8ba42bd94ba40205ca6435690a4f23dc9784c0e71df00"
 
       def install
         bin.install "rabbit-go"
@@ -29,15 +29,15 @@ class RabbitGo < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.6/rabbit-go_1.0.6_linux_amd64.tar.gz"
-      sha256 "0ef3e2f597961fc84f22c19968b5ca5d7aae4f6a1a9eaae07d2fa616ec97d3a2"
+      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.7/rabbit-go_1.0.7_linux_amd64.tar.gz"
+      sha256 "3e3e2700fc63aab579a7599ffa0252dea67c45293ebc2644aa0e83985cb2332f"
       def install
         bin.install "rabbit-go"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.6/rabbit-go_1.0.6_linux_arm64.tar.gz"
-      sha256 "0c81c1dbcb8b105c1101c4dbb8822d363216b645cbd06117722566323f012ee8"
+      url "https://github.com/ilpanda/rabbit-go/releases/download/v1.0.7/rabbit-go_1.0.7_linux_arm64.tar.gz"
+      sha256 "f1b25fd289b893c2a4124e851e8d6d7372f9fd7b2c5b015254460e3077ebb6a7"
       def install
         bin.install "rabbit-go"
       end
